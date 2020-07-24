@@ -23,6 +23,7 @@ body {
           transform: translate(-50%, -50%);
 }
 
+
 .notfound {
   max-width: 900px;
   width: 100%;
@@ -69,8 +70,7 @@ body {
   text-transform: uppercase;
   text-shadow: 0px 2px 0px #03be23;
   letter-spacing: 13px;
-  margin: 0;
-  margin-bottom: 15px;
+  margin:0;
 }
 
 .notfound a {
@@ -86,7 +86,9 @@ body {
   font-weight: 700;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  margin-bottom: 15px;
 }
+
 
 .notfound a:hover {
   color: rgba(71,196,71, .9);
@@ -102,4 +104,26 @@ body {
   .notfound .notfound-404 h1 {
       font-size: 182px;
   }
+}
+
+
+.app {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #030005 !important;
+  border: 2px solid;
+  background-color: rgb(3, 105, 3) !important;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  margin-bottom: 15px;
+}
+
+
+.app:hover {
+  background-color: rgb(71,196,71) !important;
 }
