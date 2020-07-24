@@ -1,2 +1,7 @@
 console.log(window.location.href);
-console.log(document.referrer);
+
+const url = window.location.href
+if (url) {
+    const paths = url.split('/');
+    console.log(paths);
+}
