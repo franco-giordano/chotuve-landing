@@ -888,7 +888,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     width: 14px;
     height: 14px;
-    border: 3px solid #7a77ff;
+    border: 3px solid rgba(71,196,71);
     background: #fff;
     top: 4px;
     left: 0;
@@ -1957,3 +1957,20 @@ h6 {
     margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
+
+.mi-list li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.82em !important; 
+  text-align: left;
+}
+  .mi-list li:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 3px solid rgba(71,196,71);
+    background: #fff;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%; }
