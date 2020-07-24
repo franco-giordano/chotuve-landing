@@ -22,7 +22,7 @@
 		<!-- Author Meta -->
 		<meta name="author" content="Grupo 11">
 		<!-- Meta Description -->
-		<meta name="description" content="">
+		<meta name="description" content="Visita nuestra aplicacion para subir y compartir videos con amigos! Taller de Programacion II, FIUBA. Realizado por el Grupo 11. 1C2020">
 		<!-- Meta Keyword -->
 		<meta name="keywords" content="">
 
@@ -50,17 +50,14 @@
 					<div class="header-wrap">
 						<div class="header-top d-flex justify-content-between align-items-center">
 							<div class="logo">
-								<a href="#home"><h2 class="">Chotuve</h2></a>
+								<a href="#home"><img height="40px" src="img/logo.png" alt=""></a>
 							</div>
 							<div class="main-menubar d-flex align-items-center">
 								<nav class="hide">
-									<a href="#home">Home</a>
-									<a href="#about">About Me</a>
-									<a href="#gallery">Gallery</a>
-									<a href="#blog">Blog</a>
-									<a href="#contact">Contact</a>
-									<a href="generic.html">Generic</a>
-									<a href="elements.html">Elements</a>							
+									<a href="#home">Inicio</a>
+									<a href="#app">Aplicacion</a>
+									<a href="#proyectos">Proyectos</a>
+									<a href="#nosotros">Sobre Nosotros</a>
 								</nav>
 								<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
 							</div>
@@ -71,47 +68,50 @@
 			<!-- End Header Area -->
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home">			
-				<div class="slider"><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div class="slider">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				        <div class="carousel-inner" role="listbox">
 				          <!-- Slide One - Set the background image for this slide in the line below -->
-						  <div class="carousel-item active" style="background-image: linear-gradient(160deg, rgba(71,196,71, 0.72), rgba(90,100,115, 0.25)), url('img/uns2.jpg');
-						  											background-position: center;">
+						  <div class="carousel-item active">
 				            <div class="carousel-caption d-md-block">
 				              <h2 class="text-uppercase">Captura Momentos Unicos</h2>
 				              <p>
 								Explora y descubre el mundo, nosotros te acompañamos.
 				              </p>
-				            </div>
+							</div>
+							<video autoplay loop muted playsinline src="vid/man.mp4"></video>
 				          </div>
 				          <!-- Slide Two - Set the background image for this slide in the line below -->
-						  <div class="carousel-item" style="background-image: linear-gradient(160deg, rgba(71,196,71, 0.72), rgba(90,100,115, 0.25)),url('img/uns3.jpg');
-						  									background-position: center;">
+						  <div class="carousel-item">
 				            <div class="carousel-caption d-md-block">
 				              <h2 class="text-uppercase">El mundo en tus manos</h2>
 				              <p>
 								Descubre las experiencias del planeta en un solo lugar
 				              </p>
-				            </div>
+							</div>
+							<video autoplay loop muted playsinline src="vid/hiking.mp4"></video>
 				          </div>
 				          <!-- Slide Three - Set the background image for this slide in the line below -->
-						  <div class="carousel-item" style="background-image: linear-gradient(160deg, rgba(71,196,71, 0.72), rgba(90,100,115, 0.25)),url('img/uns4.jpg');
-						  									background-position: bottom;">
+						  <div class="carousel-item">
 				            <div class="carousel-caption d-md-block">
 				              <h2 class="text-uppercase">Comparte en comunidad</h2>
 				              <p>
 								Redescubri tus aventuras con amigos, conocidos, o el mundo entero... tu decision!
 				              </p>
-				            </div>
+							</div>
+							<video autoplay loop muted playsinline src="vid/waterjump.mp4"></video>
 						  </div>
 						  <!-- Slide Four - Set the background image for this slide in the line below -->
 						  <div class="carousel-item" style="background-image: linear-gradient(160deg, rgba(71,196,71, 0.72), rgba(90,100,115, 0.25)),url('img/uns1.jpg');
 						  									background-position: bottom;">
 				            <div class="carousel-caption d-md-block">
-				              <h2 class="text-uppercase">Guardamos tus memorias</h2>
+				              <h2 class="text-uppercase">Guardamos tus memorias*</h2>
 				              <p>
-								No las guardamos en cassette. Por favor, no nos mandes nada en cassette <br> No es gracioso, enserio.	
+								Despreocupate de los archivos, nosotros los tenemos seguros. <br>
+								<p style="font-size: x-small;">* memorias incluyen pero no limitadas a: accesos a la aplicacion, interacciones, <br>mensajes y cualquier otra informacion que podamos comercializar a terceros</p>
 				              </p>
-				            </div>
+							</div>
+							<video autoplay loop muted playsinline src="vid/memories.mp4"></video>
 				          </div>
 				        </div>
 				        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -129,7 +129,7 @@
 
 
 			<!-- Start About Area -->
-			<section class="About-area section-gap" id="about">
+			<section class="About-area section-gap" id="app">
 				<div class="container">
 					<div class="row d-flex align-items-center">
 						<div class="col-lg-6 about-left">
@@ -143,7 +143,8 @@
 							<p>
 								Con una elegante interfaz, seras capaz de compartir todos tus momentos de forma instantanea y gratificante. Desata todo tu poder artistico y alcanza una plenitud total en tu vida con tan solo subir un video
 							</p>
-							<button class="submit-btn primary-btn mt-20 text-uppercase ">Descargar ahora<span class="lnr lnr-arrow-right"></span></button>
+							<button class="submit-btn primary-btn mt-20 text-uppercase ">Descargar ahora<span class="lnr lnr-arrow-right"></span></button> <br>
+							<a href="#" class="genric-btn success-border mt-20 circle arrow text-uppercase" style="font-size: smaller;">Descargar beta<span class="lnr lnr-arrow-right"></span></a>
 						</div>
 					</div>
 				</div>	
@@ -151,7 +152,7 @@
 			<!-- End About Area -->
 
 			<!-- Start callto Area -->
-			<section class="callto-area pt-30 pb-30">
+			<section class="callto-area pt-30 pb-30"  id="proyectos">
 				<div class="container">
 					<div class="row">
 						 <div class="col-lg-9 callto-left">
@@ -163,7 +164,7 @@
 			<!-- End callto Area -->
 
 			<!-- Start blog Area -->
-			<section class="blog-area" id="blog" style="padding: 50px 0;">
+			<section class="blog-area" style="padding: 50px 0;">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-15 pb-30 header-text">
@@ -171,37 +172,50 @@
 									<div class="col-md-4">
 										<div class="single-defination">
 											<h3 class="mb-20">Chotuve Android</h4>
-											<p>Aplicacion de Android desarrollada con React Native y Expo</p>
+											<p>Via de acceso al usuario mediante la aplicacion de Android. Desarrollada con React Native y Expo <br>
+												<a href="https://github.com/javier2409/Chotuve-Android">GitHub</a>
+
+											</p>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="single-defination">
 											<h3 class="mb-20">Chotuve App Server</h4>
-											<p>Servidor central encargado de la comunicacion con la aplicacion. Desarrollado con Flask y PostgreSQL</p>
+											<p>Servidor central encargado de la comunicacion con la aplicacion. Desarrollado con Flask y PostgreSQL <br>
+											<a href="https://github.com/Franco-Giordano/chotuve-appserver">GitHub</a>
+											</p>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="single-defination">
 											<h3 class="mb-20">Chotuve Auth Server</h4>
-											<p>Servidor encargado de la autenticacion de usuarios. Desarrollado con Flask y PostgreSQL</p>
+											<p>Servidor encargado de la autenticacion de usuarios con el apoyo Firebase. Desarrollado con Flask y PostgreSQL <br>
+												<a href="https://github.com/santiagomariani/chotuve-auth-server">GitHub</a>
+												</p>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="single-defination">
 											<h3 class="mb-20">Chotuve Media Server</h4>
-											<p>Servidor encargado del almacenamiento y administracion de los recursos Media. Desarrollado con NodeJS, Express y MongoDB</p>
+											<p>Servidor encargado del almacenamiento y administracion de los recursos Media. Desarrollado con NodeJS, Express y MongoDB <br>
+												<a href="https://github.com/sebalogue/chotuve-mediaserver">GitHub</a>
+												</p>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="single-defination">
 											<h3 class="mb-20">Chotuve Web Front</h4>
-											<p>Front end administrativo, visualizacion de estadisticas y administracion de recursos. Desarrollado con React</p>
+											<p>Front end administrativo, visualizacion de estadisticas y administracion de recursos. Desarrollado con React <br>
+												<a href="https://github.com/santiagomariani/chotuve-web-front">GitHub</a>
+												</p>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="single-defination">
 											<h3 class="mb-20">Chotuve Landing Page</h4>
-											<p>Esta pagina web. Desarrollada con HTML puro, sin frameworks. Pagina estatica servida por cortesia de GitHub</p>
+											<p>Esta pagina web. Desarrollada con HTML puro, sin frameworks. Pagina estatica servida por cortesia de GitHub <br>
+												<a href="https://github.com/Franco-Giordano/chotuve-landing">GitHub</a>
+												</p>
 										</div>
 									</div>
 							</div>		
@@ -213,7 +227,7 @@
 
 
 			<!-- Start callto Area -->
-			<section class="callto-area pt-30 pb-30">
+			<section class="callto-area pt-30 pb-30" id="nosotros">
 				<div class="container">
 					<div class="row">
 						 <div class="col-lg-9 callto-left">
@@ -223,7 +237,7 @@
 				</div>	
 			</section>
 			<!-- End callto Area -->
-			<section class="blog-area" id="blog" style="padding: 50px 0;">
+			<section class="blog-area"  style="padding: 50px 0;">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-30 pb-20 header-text">
@@ -234,7 +248,6 @@
 								<div class="col-md-7 mt-sm-20">
 									<p>Trabajo practico realizado en el marco de la materia 75.52 Taller de Programacion II, Facultad de Ingenieria, Universidad de Buenos Aires. Primer Cuatrimestre 2020. <br>
 										Puede encontrarse el enunciado original <a href="https://taller-de-programacion-2.github.io/2020-04-16-trabajo-practico/">aqui</a> 
-
 									</p>
 										Trabajo realizado por el grupo 11. Integrantes:
 										<ul class="mi-list">
