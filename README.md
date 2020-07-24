@@ -7,6 +7,6 @@
 [![sv](https://img.shields.io/badge/view-auth%20sv-important)](https://github.com/santiagomariani/chotuve-auth-server)
 [![sv](https://img.shields.io/badge/view-android-important)](https://github.com/javier2409/Chotuve-Android)
 
-# Template
+## Template
 
 Photography by [Colorlib](https://colorlib.com/wp/template/photography/)
