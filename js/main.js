@@ -61,7 +61,7 @@ $(document).ready(function(){
           gallery:{
           enabled:true
           }
-      });  
+      }); 
   };
 
 
@@ -145,5 +145,6 @@ $(document).ready(function(){
             });
         });
 
-
+  console.log(window.location.href);
+  console.log(document.referrer);
  });
